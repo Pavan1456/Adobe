@@ -1,4 +1,4 @@
-AI-Powered SQL Query Generator and Corrector
+#AI-Powered SQL Query Generator and Corrector
 This project is a Streamlit-based web application that uses the Groq API and a PostgreSQL database to generate and correct SQL queries based on natural language input. It is designed to help users interact with databases using natural language and automatically correct SQL queries.
 
 Features
@@ -33,6 +33,7 @@ Replace the placeholder groq_api_key in the code with your actual API key.
 PostgreSQL Database:
 
 Set up a PostgreSQL database and update the connection details in the connect_to_db function:
+
 conn = psycopg2.connect(
     dbname="your_db_name",
     user="your_db_user",
